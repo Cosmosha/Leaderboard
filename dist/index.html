@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="title">
+                <h3>Today's to Do</h3>
+                <span class="ba">
+                    <i class="fa fa-refresh"></i> 
+                    <span class="badge">0</span>
+                </span>
+
+            </div>
+            <div class="list">
+                <form>
+                    <input type="text" name="addTask" id="todoInput" placeholder="Add to your list..." /><i class="addButton fa fa-reply" id="addButton"></i>
+                </form>
+                <ul class="add-item" id="itemList"></ul>
+            </div>
+            <button class="clear" id="clearAll">Clear All Completed</button>
+        </div>
+
+    </section>
+</body>
+
+</html>
