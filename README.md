@@ -8,7 +8,7 @@
   <img src="./log.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>To-Do-List APP with Webpack | README</b></h3>
+  <h3><b>LeaderBoard APP with Webpack | README</b></h3>
 
 </div>
 
@@ -37,7 +37,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-Do-List APP with Webpack ] <a name="about-project"></a>
+# 📖 [LeaderBoard APP with Webpack ] <a name="about-project"></a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -90,7 +90,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://cosmosha.github.io/To-do-list/)
+- [Live Demo Link](coming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +106,7 @@ To get a local copy up and running, follow these steps.
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/Cosmosha/To-do-list
+Clone this repository to your desired folder: https://github.com/Cosmosha/Leaderboard
 
 ### Install
 
@@ -163,8 +163,8 @@ Broswer, text editor.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Complete Task]**
-- [ ] **[Clear All Tasks]**
+- [ ] **[Add Score]**
+- [ ] **[LeaderBoard API Integration]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
