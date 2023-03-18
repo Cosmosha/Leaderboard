@@ -1,11 +1,12 @@
-import scores from './scoresdata.js';
+import ScoreData from './scoresdata.js';
 
 class ScoresList {
-    static render = () => {
+    static render = async () => {
+      const scores = await ScoreData.loadScore();
       const tablelist = document.querySelector('table');
-      const getScores = scores;
-      const displayScores = getScores.map((scores) => ` <tr>
-    <td>${scores.name}: ${scores.score}</td>
+      const getScores = scores.result;
+      const displayScores = getScores.map((score) => ` <tr>
+    <td> ${score.user}: ${score.score}</td>
 </tr>`);
       tablelist.innerHTML = displayScores.join('');
     }

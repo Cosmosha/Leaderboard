@@ -43,6 +43,7 @@ main {
   border: 2px solid black;
   width: 100%;
   height: auto;
+  font-weight: bold;
 }
 
 table tr:nth-child(even) {
@@ -53,7 +54,8 @@ table td {
   padding: 8px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="number"] {
   padding: 8px 8px 8px 9px;
   margin-bottom: 1rem;
   border: 2px solid black;
