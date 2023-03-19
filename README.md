@@ -75,6 +75,11 @@
     <li><a href="#">NO Database</a></li>
   </ul>
 </details>
+<summary>API</summary>
+  <ul>
+    <li><a href="#">Leaderboard API</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
@@ -83,6 +88,7 @@
 - **[linters]**
 - **[Webpack configuration]**
 - **[Gitflow]**
+- **[Leaderboard API]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +96,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](coming soon)
+- [Live Demo Link]('https://cosmosha.github.io/Leaderboard/dist/')
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,8 +169,8 @@ Broswer, text editor.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add Score]**
-- [ ] **[LeaderBoard API Integration]**
+- [ ] **[Score Sorting]**
+- [ ] **[Player Ranking]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
