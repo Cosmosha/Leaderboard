@@ -75,6 +75,7 @@
     <li><a href="#">NO Database</a></li>
   </ul>
 </details>
+<details>
 <summary>API</summary>
   <ul>
     <li><a href="#">Leaderboard API</a></li>
